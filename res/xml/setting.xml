@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+     
+    <PreferenceCategory
+        android:title="사용자 프로필">
+        
+        <EditTextPreference
+                android:title="사용자 이름"
+                android:summary="사용자 이름을 설정합니다."
+                android:key="prefUsername" />
+        
+        <ListPreference
+            android:title="성별"
+            android:summary="사용자의 성별을 설정합니다."
+            android:entries="@array/sex"
+            android:entryValues="@array/sexValues"
+            android:key="prefSex" />
+        
+    </PreferenceCategory>
+     
+    <PreferenceCategory
+        android:title="날씨정보">
+        
+        <ListPreference
+            android:title="날씨 단위"
+            android:summary="사용할 날씨 단위를 설정합니다."
+            android:entries="@array/weatherUnit"
+            android:entryValues="@array/weatherUnitValues"
+            android:key="prefWeatherUnit" />
+        
+        <ListPreference
+            android:title="풍속 단위"
+            android:summary="사용할 풍속 단위를 설정합니다."
+            android:entries="@array/windsUnit"
+            android:entryValues="@array/windsUnitValues"
+            android:key="prefWindsUnit" />
+        
+        <ListPreference
+            android:title="출력할 날씨 개수"
+            android:summary="날씨 리스트에 출력된 개수를 설정합니다."
+            android:entries="@array/daily"
+            android:entryValues="@array/dailyValues"
+            android:key="prefDaily" />
+        
+    </PreferenceCategory>
+     
+    <PreferenceCategory
+        android:title="알림 정보">
+        
+        <CheckBoxPreference
+            android:title="비 알림"
+            android:summary="비가 내릴 때, 알림바에 알림을 표시할지 여부를 설정합니다."
+			android:key="prefRain" />
+        
+        <CheckBoxPreference
+            android:title="눈 알림"
+            android:summary="눈이 내릴 때, 알림바에 알림을 표시할지 여부를 설정합니다."
+			android:key="prefSnow" />
+        
+        <CheckBoxPreference
+            android:title="불쾌지수 알림"
+            android:summary="불쾌지수가 높을 때, 알림바에 알림을 표시할지 여부를 설정합니다."
+			android:key="prefDis" />
+        
+        <CheckBoxPreference
+            android:title="부패지수 알림"
+            android:summary="부패지수, 알림바에 알림을 표시할지 여부를 설정합니다."
+			android:key="prefPut" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Copyright">
+    
+    	<Preference
+    	    android:title="만든이: 이상윤, 박세호"
+    	    android:summary="안드로이드 과제 - 누나의 일기예보" />
+ 	</PreferenceCategory>
+ 
+
+ </PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">누나의 일기예보</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="title_refresh">새로고침</string>
+    <string name="title_setting">설정</string>
+    <string name="title_weather">날씨보기</string>
+    
+    <string name="title_actual">ACTUAL TEMP</string>
+    <string name="title_feels">FEELS LIKE</string>
+    
+    <string name="default_temp">0°</string>
+    <string name="default_temp2">0°/0°</string>
+    <string name="default_wind">0 m/s</string>
+    <string name="default_press">0 hPa</string>
+    
+    <string name="desc_image">weathercast</string>
+
+</resources>

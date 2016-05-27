@@ -1,0 +1,21 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.leesangyoon.forecast.MainActivity">
+    
+    <item android:id="@+id/menu_refresh"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="@string/title_refresh"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/menu_weather"
+          android:icon="@drawable/ic_action_cloud"
+          android:title="@string/title_weather"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/menu_setting"
+          android:icon="@drawable/ic_action_settings"
+          android:title="@string/title_setting"
+          android:showAsAction="always" />
+    
+</menu>

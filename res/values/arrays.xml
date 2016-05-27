@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="sex">
+        <item name="0">남자</item>
+        <item name="1">여자</item>
+    </string-array>
+    
+    <string-array name="sexValues">
+        <item name="0">male</item>
+        <item name="1">female</item>
+    </string-array>
+    
+	<string-array name="weatherUnit">
+        <item name="0">섭씨(℃)</item>
+        <item name="1">화씨(℉)</item>
+    </string-array>
+    
+    <string-array name="weatherUnitValues">
+        <item name="0">celsius</item>
+        <item name="1">fahrenheit</item>
+    </string-array>
+    
+	<string-array name="windsUnit">
+        <item name="0">m/s</item>
+        <item name="1">km/h</item>
+    </string-array>
+    
+    <string-array name="windsUnitValues">
+        <item name="0">mps</item>
+        <item name="1">kmph</item>
+    </string-array>
+    
+	<string-array name="daily">
+        <item name="7">7일</item>
+        <item name="8">8일</item>
+        <item name="9">9일</item>
+        <item name="10">10일</item>
+        <item name="11">11일</item>
+        <item name="12">12일</item>
+        <item name="13">13일</item>
+        <item name="14">14일</item>
+    </string-array>
+    
+    <string-array name="dailyValues">
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+        <item name="11">11</item>
+        <item name="12">12</item>
+        <item name="13">13</item>
+        <item name="14">14</item>
+    </string-array>
+</resources>
